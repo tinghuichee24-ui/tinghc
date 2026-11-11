@@ -4,67 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Little World of Chee</title>
+    <title>Home | A Little World of Chee</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">A Little World of Chee</h2>
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">A Little World of Chee</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="hometown.html">My Hometown</a></li>
+            <li><a href="interests.html">My Interests</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="hometown.html">My Hometown</a></li>
-                <li><a href="interests.html">My Interests</a></li>
-            </ul>
-        </nav>
-    </header>
+<main>
+    <section class="home-section">
 
+        <div class="home-text">
+            <p class="welcome">WELCOME TO MY WEBSITE</p>
 
-    <!-- Home Section -->
-    <main>
-        <section class="home">
+            <h1>Hi, I'm Chee.<br>Nice to meet you.</h1>
 
-            <div class="home-text">
-                <p class="welcome">WELCOME TO MY WEBSITE</p>
+            <p>
+                I'm a Business Computing student from Miri, Sarawak.
+                Outside my studies, I enjoy cooking, travelling,
+                trying different food, and dancing.
+            </p>
 
-                <h1>Hi, I'm Chee.<br>Nice to meet you.</h1>
+            <p>
+                This website is a little introduction to me,
+                my background, and the things I enjoy.
+            </p>
 
-                <p class="intro">
-                    I'm a Business Computing student from Miri, Sarawak.
-                    Outside my studies, I enjoy cooking, travelling,
-                    trying different food, and dancing.
-                </p>
+            <a href="about.html" class="main-button">
+                GET TO KNOW ME →
+            </a>
+        </div>
 
-                <p class="intro">
-                    This website is a little introduction to me,
-                    my background, and the things I enjoy.
-                </p>
+        <div class="carousel" data-carousel>
 
-                <a href="about.html" class="home-btn">
-                    GET TO KNOW ME →
-                </a>
+            <div class="carousel-slides">
+                <div class="carousel-slide active">
+                    <img src="images/myphoto.jpg" alt="A photo of Chee">
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="images/home2.jpg" alt="Chee's daily life">
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="images/home3.jpg" alt="A favourite moment">
+                </div>
             </div>
 
+            <button class="carousel-btn prev" aria-label="Previous photo">
+                &#10094;
+            </button>
 
-            <!-- Personal Photo -->
-            <div class="home-image">
-                <img src="images/myphoto.jpg"
-                     alt="A photo of Chee">
-            </div>
+            <button class="carousel-btn next" aria-label="Next photo">
+                &#10095;
+            </button>
 
-        </section>
-    </main>
+            <div class="carousel-dots"></div>
+        </div>
 
+    </section>
+</main>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 A Little World of Chee | Ting Hui Chee</p>
-    </footer>
+<footer>
+    <p>© 2026 A Little World of Chee | Ting Hui Chee</p>
+</footer>
 
+<script src="script.js"></script>
 </body>
 </html>
