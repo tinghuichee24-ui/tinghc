@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>A Little World of Chee</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,11 +12,11 @@
 
     <!-- Navigation Bar -->
     <header>
-        <nav>
-            <h2>My Personal Website</h2>
+        <nav class="navbar">
+            <h2 class="logo">A Little World of Chee</h2>
 
-            <ul>
-                <li><a href="index.html">Home</a></li>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="hometown.html">My Hometown</a></li>
                 <li><a href="interests.html">My Interests</a></li>
@@ -24,31 +24,46 @@
         </nav>
     </header>
 
+
     <!-- Home Section -->
-    <main class="home">
-        <div class="home-content">
-            <p class="welcome">WELCOME TO MY WEBSITE</p>
+    <main>
+        <section class="home">
 
-            <h1>Hello, I'm Hui Chee Ting!</h1>
+            <div class="home-text">
+                <p class="welcome">WELCOME TO MY WEBSITE</p>
 
-            <h3>Get to Know Me Better</h3>
+                <h1>Hi, I'm Chee.<br>Nice to meet you.</h1>
 
-            <p>
-                Welcome to my personal website!
-                This website is about me, my hometown,
-                and the things I enjoy doing.
-                Feel free to explore and learn more about me.
-            </p>
+                <p class="intro">
+                    I'm a Business Computing student from Miri, Sarawak.
+                    Outside my studies, I enjoy cooking, travelling,
+                    trying different food, and dancing.
+                </p>
 
-            <a href="about.html" class="button">
-                Explore More
-            </a>
-        </div>
+                <p class="intro">
+                    This website is a little introduction to me,
+                    my background, and the things I enjoy.
+                </p>
+
+                <a href="about.html" class="home-btn">
+                    GET TO KNOW ME →
+                </a>
+            </div>
+
+
+            <!-- Personal Photo -->
+            <div class="home-image">
+                <img src="images/myphoto.jpg"
+                     alt="A photo of Chee">
+            </div>
+
+        </section>
     </main>
+
 
     <!-- Footer -->
     <footer>
-        <p>© 2026 My Personal Website | Created by Hui Chee Ting</p>
+        <p>© 2026 A Little World of Chee | Ting Hui Chee</p>
     </footer>
 
 </body>
