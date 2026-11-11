@@ -4,50 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>About Me | A Little World of Chee</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <h2>My Personal Website</h2>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="hometown.html">My Hometown</a></li>
-            <li><a href="interests.html">My Interests</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">A Little World of Chee</h2>
 
-<main class="page-content">
-    <h1>About Me</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="hometown.html">My Hometown</a></li>
+                <li><a href="interests.html">My Interests</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p class="welcome">GET TO KNOW ME</p>
+    <main class="page-wrap">
 
-    <img src="images/myphoto.jpg" alt="My Personal Photo" class="profile-photo">
+        <section class="page-heading">
+            <p class="welcome">GET TO KNOW ME</p>
+            <h1>About Me</h1>
+            <p>A little introduction to who I am.</p>
+        </section>
 
-    <h2>Hello! I'm Hui Chee Ting.</h2>
+        <section class="about-content">
 
-    <p>
-        I am a university student who enjoys learning
-        new things and experiencing different activities.
-        I value my family, friendship and personal growth.
-    </p>
+            <div class="about-image">
+                <img src="images/myphoto.jpg" alt="Photo of Chee">
+            </div>
 
-    <h3>My Personal Information</h3>
+            <div class="about-text">
+                <h2>Hello, I'm Chee!</h2>
 
-    <p><strong>Name:</strong> Hui Chee Ting</p>
-    <p><strong>Education:</strong> University Student</p>
-    <p><strong>University:</strong> Universiti Malaysia Sabah</p>
-    <p><strong>Personality:</strong> Simple and friendly</p>
+                <p>
+                    My name is Ting Hui Chee, and you can call me Chee.
+                    I am from Miri, Sarawak, Malaysia.
+                </p>
 
-</main>
+                <p>
+                    I am currently pursuing a Bachelor of Information
+                    Technology with Honours (Business Computing) at
+                    Universiti Malaysia Sabah, Kampus Antarabangsa Labuan.
+                </p>
 
-<footer>
-    <p>© 2026 My Personal Website</p>
-</footer>
+                <p>
+                    University life gives me opportunities to learn new
+                    things, meet different people, and gain new experiences.
+                    Outside my studies, I enjoy spending time on my hobbies
+                    and exploring things that interest me.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="info-section">
+            <h2>Personal Information</h2>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Name</h3>
+                    <p>Ting Hui Chee</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Preferred Name</h3>
+                    <p>Chee</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>University</h3>
+                    <p>Universiti Malaysia Sabah</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Programme</h3>
+                    <p>Business Computing</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Hometown</h3>
+                    <p>Miri, Sarawak</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 A Little World of Chee | Ting Hui Chee</p>
+    </footer>
 
 </body>
 </html>
