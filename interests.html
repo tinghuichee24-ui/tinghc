@@ -7,87 +7,150 @@
     <title>My Interests | A Little World of Chee</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">A Little World of Chee</h2>
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">A Little World of Chee</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="hometown.html">My Hometown</a></li>
+            <li><a href="interests.html" class="active">My Interests</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="hometown.html">My Hometown</a></li>
-                <li><a href="interests.html" class="active">My Interests</a></li>
-            </ul>
-        </nav>
-    </header>
+<main class="page-wrap">
 
-    <main class="page-wrap">
+    <section class="page-heading">
+        <p class="welcome">THINGS I ENJOY</p>
+        <h1>My Interests</h1>
+        <p>A few things I enjoy doing in my free time.</p>
+    </section>
 
-        <section class="page-heading">
-            <p class="welcome">THINGS I ENJOY</p>
-            <h1>My Interests</h1>
-            <p>A few things I enjoy doing in my free time.</p>
-        </section>
+    <section class="interest-list">
 
-        <section class="interest-grid">
-
-            <div class="interest-card">
-                <img src="images/cooking.jpg" alt="Cooking">
-                <div class="interest-text">
-                    <h2>Cooking</h2>
-                    <p>
-                        I enjoy cooking and trying different recipes.
-                        It is a fun way for me to explore food and
-                        prepare something by myself.
-                    </p>
+        <article class="interest-item">
+            <div class="carousel" data-carousel>
+                <div class="carousel-slides">
+                    <div class="carousel-slide active">
+                        <img src="images/cooking.jpg" alt="Cooking">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/cooking2.jpg" alt="Home cooking">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/cooking3.jpg" alt="Food preparation">
+                    </div>
                 </div>
+                <button class="carousel-btn prev" aria-label="Previous photo">&#10094;</button>
+                <button class="carousel-btn next" aria-label="Next photo">&#10095;</button>
+                <div class="carousel-dots"></div>
             </div>
 
-            <div class="interest-card">
-                <img src="images/travelling.jpg" alt="Travelling">
-                <div class="interest-text">
-                    <h2>Travelling</h2>
-                    <p>
-                        I like travelling and visiting new places.
-                        Every trip gives me a chance to see something
-                        different and create new memories.
-                    </p>
+            <div class="interest-text">
+                <h2>Cooking</h2>
+                <p>
+                    I enjoy cooking and trying different recipes.
+                    It is a fun way for me to explore food and
+                    prepare something by myself.
+                </p>
+            </div>
+        </article>
+
+        <article class="interest-item">
+            <div class="carousel" data-carousel>
+                <div class="carousel-slides">
+                    <div class="carousel-slide active">
+                        <img src="images/travelling.jpg" alt="Travelling">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/travelling2.jpg" alt="Travel destination">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/travelling3.jpg" alt="Travel memories">
+                    </div>
                 </div>
+                <button class="carousel-btn prev" aria-label="Previous photo">&#10094;</button>
+                <button class="carousel-btn next" aria-label="Next photo">&#10095;</button>
+                <div class="carousel-dots"></div>
             </div>
 
-            <div class="interest-card">
-                <img src="images/food.jpg" alt="Delicious food">
-                <div class="interest-text">
-                    <h2>Good Food</h2>
-                    <p>
-                        I love discovering delicious food.
-                        Trying different dishes is one of the little
-                        things that makes me happy.
-                    </p>
+            <div class="interest-text">
+                <h2>Travelling</h2>
+                <p>
+                    I like travelling and visiting new places.
+                    Every trip gives me a chance to see something
+                    different and create new memories.
+                </p>
+            </div>
+        </article>
+
+        <article class="interest-item">
+            <div class="carousel" data-carousel>
+                <div class="carousel-slides">
+                    <div class="carousel-slide active">
+                        <img src="images/food.jpg" alt="Delicious food">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/food2.jpg" alt="Favourite dish">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/food3.jpg" alt="Food discovery">
+                    </div>
                 </div>
+                <button class="carousel-btn prev" aria-label="Previous photo">&#10094;</button>
+                <button class="carousel-btn next" aria-label="Next photo">&#10095;</button>
+                <div class="carousel-dots"></div>
             </div>
 
-            <div class="interest-card">
-                <img src="images/dancing.jpg" alt="Dancing">
-                <div class="interest-text">
-                    <h2>Dancing</h2>
-                    <p>
-                        Dancing is another activity I enjoy.
-                        It allows me to express myself, enjoy music,
-                        and have fun.
-                    </p>
+            <div class="interest-text">
+                <h2>Good Food</h2>
+                <p>
+                    I love discovering delicious food.
+                    Trying different dishes is one of the little
+                    things that makes me happy.
+                </p>
+            </div>
+        </article>
+
+        <article class="interest-item">
+            <div class="carousel" data-carousel>
+                <div class="carousel-slides">
+                    <div class="carousel-slide active">
+                        <img src="images/dancing.jpg" alt="Dancing">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/dancing2.jpg" alt="Dance practice">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/dancing3.jpg" alt="Dance performance">
+                    </div>
                 </div>
+                <button class="carousel-btn prev" aria-label="Previous photo">&#10094;</button>
+                <button class="carousel-btn next" aria-label="Next photo">&#10095;</button>
+                <div class="carousel-dots"></div>
             </div>
 
-        </section>
+            <div class="interest-text">
+                <h2>Dancing</h2>
+                <p>
+                    Dancing is another activity I enjoy.
+                    It allows me to express myself, enjoy music,
+                    and have fun.
+                </p>
+            </div>
+        </article>
 
-    </main>
+    </section>
 
-    <footer>
-        <p>© 2026 A Little World of Chee | Ting Hui Chee</p>
-    </footer>
+</main>
 
+<footer>
+    <p>© 2026 A Little World of Chee | Ting Hui Chee</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
