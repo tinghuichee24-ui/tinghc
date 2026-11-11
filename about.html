@@ -7,96 +7,117 @@
     <title>About Me | A Little World of Chee</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">A Little World of Chee</h2>
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">A Little World of Chee</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Me</a></li>
+            <li><a href="hometown.html">My Hometown</a></li>
+            <li><a href="interests.html">My Interests</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About Me</a></li>
-                <li><a href="hometown.html">My Hometown</a></li>
-                <li><a href="interests.html">My Interests</a></li>
-            </ul>
-        </nav>
-    </header>
+<main class="page-wrap">
 
-    <main class="page-wrap">
+    <section class="page-heading">
+        <p class="welcome">GET TO KNOW ME</p>
+        <h1>About Me</h1>
+        <p>A little introduction to who I am.</p>
+    </section>
 
-        <section class="page-heading">
-            <p class="welcome">GET TO KNOW ME</p>
-            <h1>About Me</h1>
-            <p>A little introduction to who I am.</p>
-        </section>
+    <section class="about-content">
 
-        <section class="about-content">
+        <div class="carousel" data-carousel>
 
-            <div class="about-image">
-                <img src="images/myphoto.jpg" alt="Photo of Chee">
-            </div>
-
-            <div class="about-text">
-                <h2>Hello, I'm Chee!</h2>
-
-                <p>
-                    My name is Ting Hui Chee, and you can call me Chee.
-                    I am from Miri, Sarawak, Malaysia.
-                </p>
-
-                <p>
-                    I am currently pursuing a Bachelor of Information
-                    Technology with Honours (Business Computing) at
-                    Universiti Malaysia Sabah, Kampus Antarabangsa Labuan.
-                </p>
-
-                <p>
-                    University life gives me opportunities to learn new
-                    things, meet different people, and gain new experiences.
-                    Outside my studies, I enjoy spending time on my hobbies
-                    and exploring things that interest me.
-                </p>
-            </div>
-
-        </section>
-
-        <section class="info-section">
-            <h2>Personal Information</h2>
-
-            <div class="info-grid">
-                <div class="info-card">
-                    <h3>Name</h3>
-                    <p>Ting Hui Chee</p>
+            <div class="carousel-slides">
+                <div class="carousel-slide active">
+                    <img src="images/myphoto.jpg" alt="Photo of Chee">
                 </div>
 
-                <div class="info-card">
-                    <h3>Preferred Name</h3>
-                    <p>Chee</p>
+                <div class="carousel-slide">
+                    <img src="images/about2.jpg" alt="University life">
                 </div>
 
-                <div class="info-card">
-                    <h3>University</h3>
-                    <p>Universiti Malaysia Sabah</p>
-                </div>
-
-                <div class="info-card">
-                    <h3>Programme</h3>
-                    <p>Business Computing</p>
-                </div>
-
-                <div class="info-card">
-                    <h3>Hometown</h3>
-                    <p>Miri, Sarawak</p>
+                <div class="carousel-slide">
+                    <img src="images/about3.jpg" alt="A personal moment">
                 </div>
             </div>
-        </section>
 
-    </main>
+            <button class="carousel-btn prev" aria-label="Previous photo">
+                &#10094;
+            </button>
 
-    <footer>
-        <p>© 2026 A Little World of Chee | Ting Hui Chee</p>
-    </footer>
+            <button class="carousel-btn next" aria-label="Next photo">
+                &#10095;
+            </button>
 
+            <div class="carousel-dots"></div>
+        </div>
+
+        <div class="about-text">
+            <h2>Hello, I'm Chee!</h2>
+
+            <p>
+                My name is Ting Hui Chee, and you can call me Chee.
+                I am from Miri, Sarawak, Malaysia.
+            </p>
+
+            <p>
+                I am currently pursuing a Bachelor of Information
+                Technology with Honours (Business Computing) at
+                Universiti Malaysia Sabah, Kampus Antarabangsa Labuan.
+            </p>
+
+            <p>
+                University life gives me opportunities to learn new
+                things, meet different people, and gain new experiences.
+                Outside my studies, I enjoy spending time on my hobbies.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="info-section">
+        <h2>Personal Information</h2>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>Name</h3>
+                <p>Ting Hui Chee</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Preferred Name</h3>
+                <p>Chee</p>
+            </div>
+
+            <div class="info-card">
+                <h3>University</h3>
+                <p>Universiti Malaysia Sabah</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Programme</h3>
+                <p>Business Computing</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Hometown</h3>
+                <p>Miri, Sarawak</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 A Little World of Chee | Ting Hui Chee</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
